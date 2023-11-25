@@ -1,0 +1,8 @@
+import pandas as pd
+moviesdata=pd.read_csv("/content/movies.csv")
+moviesdata.head(10)
+moviesdata.tail()
+moviesdata.info()
+moviesdata.loc[moviesdata.Year==2011]
+moviesdata.loc[[4,7,8,5]]
+moviesdata.loc[1:8]
